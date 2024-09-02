@@ -1,15 +1,15 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --preto-principal: #000000;
+    --branco-secundario: #FFFFFF;
+    --botao-verde: #008000;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-verde-efeito: #426F42;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    color: var(--preto-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -35,10 +35,10 @@ body {
 }
 
 .container__botao {
-    background-color: var(--botao-azul);
+    background-color: var(--botao-verde);
     border-radius: 5px;
     padding: 1em;
-    color: var(--branco-principal);
+    color: var(--preto-principal);
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
@@ -46,12 +46,12 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--preto-principal)
 }
 
 .container__aviso {
     font-size: 12px;
-    color: var(--cinza-secundario);
+    color: var(--branco-secundario);
 }
 
 .container__titulo {
@@ -79,12 +79,12 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--preto-principal);
     margin-bottom: 0.1em;
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);
+    color: var(--branco-secundario);
 }
 
 .secundario__botao {
@@ -109,12 +109,12 @@ body {
 
 .dispositivos__titulo {
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--preto-principal);
 }
 
 .lista__item {
     font-size: 32px;
-    color: var(--branco-principal);
+    color: var(--preto-principal);
 }
 
 .rodape {
@@ -131,18 +131,18 @@ body {
 
 .lista__link a{
     text-decoration: none;
-    color: var(--branco-principal);
+    color: var(--preto-principal);
     margin-left: 1em;
 }
 
 .rodape__texto {
     margin: 1em 0;
-    color: var(--cinza-secundario);
+    color: var(--branco-secundario);
     font-size: 14px;
 }
 
 .lista__link a:hover {
-    color: var(--botao-azul);
+    color: var(--botao-verde);
 }
 
 .lista__link a:active {
@@ -150,6 +150,6 @@ body {
 }
 
 .container__botao:hover {
-    background-color: var(--botao-azul-efeito);
+    background-color: var(--botao-verde-efeito);
     color: var(--cor-de-fundo);
 }
